@@ -12,7 +12,7 @@ public class OnlinePurchaseManager
   public int countElectronicsByMaker(String maker)
   {
     int sum = 0;
-    for(int = 0; i < purchases.size();i++)
+    for(int i = 0; i < purchases.size();i++)
         if(purchases.get(i).equals(maker) && purchases.get(i).isElectronic == true)
           sum++;
     return sum;
@@ -29,7 +29,7 @@ public class OnlinePurchaseManager
       if(purchases.get(i).equals(purchases.get(i+1))
          return true;
   }
-  return false
+  return false;
   }
   public OnlinePurchaseManager()
   {
